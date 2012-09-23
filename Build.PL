@@ -10,16 +10,16 @@ my $builder = Module::Build->new(
 	dist_version_from   => 'lib/Test/Type.pm',
 	build_requires      =>
 	{
-		'Carp'                  => '0',
-		'Data::Validate::Type'  => '1.2.0',
-		'Exporter'              => '0',
 		'File::Spec'            => '0',
 		'Test::Builder::Tester' => '0',
-		'Test::More'            => '0.94',
 	},
 	requires            =>
 	{
-		'perl'         => 5.006,
+		'perl'                  => 5.006,
+		'Carp'                  => '0',
+		'Data::Validate::Type'  => '1.2.0',
+		'Exporter'              => '0',
+		'Test::More'            => '0.94',
 	},
 	add_to_cleanup      =>
 	[
@@ -34,7 +34,7 @@ my $builder = Module::Build->new(
 	{
 		resources               =>
 		{
-			repository  => 'https://sourceforge.net/p/perl-test-type/code',
+			repository  => 'https://github.com/guillaumeaubert/Test-Type',
 			homepage    => 'https://metacpan.org/release/Test-Type',
 			bugtracker  => 'http://rt.cpan.org/NoAuth/ReportBug.html?Queue=test-type',
 		},

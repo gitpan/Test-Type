@@ -4,7 +4,7 @@
       "Guillaume Aubert <aubertg@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120530",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "artistic_1"
    ],
@@ -16,12 +16,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Carp" : "0",
-            "Data::Validate::Type" : "1.002000",
-            "Exporter" : "0",
             "File::Spec" : "0",
-            "Test::Builder::Tester" : "0",
-            "Test::More" : "0.94"
+            "Test::Builder::Tester" : "0"
          }
       },
       "configure" : {
@@ -31,6 +27,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Data::Validate::Type" : "1.002000",
+            "Exporter" : "0",
+            "Test::More" : "0.94",
             "perl" : "5.006"
          }
       }
@@ -38,7 +38,7 @@
    "provides" : {
       "Test::Type" : {
          "file" : "lib/Test/Type.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       }
    },
    "release_status" : "stable",
@@ -48,11 +48,11 @@
       },
       "homepage" : "https://metacpan.org/release/Test-Type",
       "license" : [
-         "http://opensource.org/licenses/artistic-license.php"
+         "http://www.perlfoundation.org/artistic_license_1_0"
       ],
       "repository" : {
-         "url" : "https://sourceforge.net/p/perl-test-type/code"
+         "url" : "https://github.com/guillaumeaubert/Test-Type"
       }
    },
-   "version" : "v1.0.1"
+   "version" : "v1.0.2"
 }

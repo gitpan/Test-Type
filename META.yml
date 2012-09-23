@@ -3,16 +3,12 @@ abstract: 'Functions to validate data types in test files.'
 author:
   - 'Guillaume Aubert <aubertg@cpan.org>'
 build_requires:
-  Carp: 0
-  Data::Validate::Type: 1.002000
-  Exporter: 0
   File::Spec: 0
   Test::Builder::Tester: 0
-  Test::More: 0.94
 configure_requires:
   Module::Build: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120530'
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
 license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,12 +17,16 @@ name: Test-Type
 provides:
   Test::Type:
     file: lib/Test/Type.pm
-    version: v1.0.1
+    version: v1.0.2
 requires:
+  Carp: 0
+  Data::Validate::Type: 1.002000
+  Exporter: 0
+  Test::More: 0.94
   perl: 5.006
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/ReportBug.html?Queue=test-type
   homepage: https://metacpan.org/release/Test-Type
-  license: http://opensource.org/licenses/artistic-license.php
-  repository: https://sourceforge.net/p/perl-test-type/code
-version: v1.0.1
+  license: http://www.perlfoundation.org/artistic_license_1_0
+  repository: https://github.com/guillaumeaubert/Test-Type
+version: v1.0.2
