@@ -17,11 +17,11 @@ name: Test-Type
 provides:
   Test::Type:
     file: lib/Test/Type.pm
-    version: v1.1.0
+    version: v1.1.1
 requires:
   Carp: 0
   Data::Validate::Type: 1.002000
-  Exporter: 0
+  Exporter: 5.57
   Test::More: 0.94
   perl: 5.006
 resources:
@@ -29,4 +29,4 @@ resources:
   homepage: https://metacpan.org/release/Test-Type
   license: http://www.gnu.org/licenses/gpl-3.0.txt
   repository: https://github.com/guillaumeaubert/Test-Type
-version: v1.1.0
+version: v1.1.1
