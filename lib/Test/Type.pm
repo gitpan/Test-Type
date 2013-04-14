@@ -16,11 +16,11 @@ Test::Type - Functions to validate data types in test files.
 
 =head1 VERSION
 
-Version 1.1.1
+Version 1.1.2
 
 =cut
 
-our $VERSION = '1.1.1';
+our $VERSION = '1.1.2';
 
 
 =head1 SYNOPSIS
@@ -510,9 +510,9 @@ You can also look for information at:
 
 =item *
 
-RT: CPAN's request tracker
+GitHub (report bugs there)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=test-type>
+L<https://github.com/guillaumeaubert/Test-Type/issues>
 
 =item *
 
@@ -530,14 +530,14 @@ L<http://cpanratings.perl.org/d/test-type>
 
 Search CPAN
 
-L<http://search.cpan.org/dist/test-type/>
+L<https://metacpan.org/release/Test-Type>
 
 =back
 
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2012 Guillaume Aubert.
+Copyright 2012-2013 Guillaume Aubert.
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 3 as published by the Free

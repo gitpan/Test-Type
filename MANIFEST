@@ -1,4 +1,5 @@
 .perlcriticrc
+.travis.yml
 Build.PL
 Changes
 LICENSE
@@ -8,6 +9,7 @@ META.json
 META.yml
 Makefile.PL
 README
+examples/examples.txt
 ignore.txt
 lib/Test/Type.pm
 t/00-load.t
@@ -17,7 +19,11 @@ t/30-ok_hashref.t
 t/40-ok_coderef.t
 t/50-ok_number.t
 t/60-ok_instance.t
-t/manifest.t
-t/perlcritic.t
-t/pod-coverage.t
-t/pod.t
+xt/changes.t
+xt/kwalitee.t
+xt/manifest.t
+xt/module_versions.t
+xt/perlcritic.t
+xt/pod-coverage.t
+xt/pod.t
+xt/unix_eol.t

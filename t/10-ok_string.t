@@ -4,12 +4,12 @@ use strict;
 use warnings;
 
 use Test::Builder::Tester;
+use Test::FailWarnings;
 use Test::More tests => 5;
 use Test::Type;
 
+
 {
-	test_out( '1..1' )
-		if $Test::More::VERSION >= 1.005000005;
 	test_out( 'ok 1 - Variable is a string (allow empty).' );
 	
 	ok_string(
@@ -23,8 +23,6 @@ use Test::Type;
 }
 
 {
-	test_out( '1..1' )
-		if $Test::More::VERSION >= 1.005000005;
 	test_out( 'not ok 1 - Variable is a string (allow empty).' );
 	
 	ok_string(
@@ -38,8 +36,6 @@ use Test::Type;
 }
 
 {
-	test_out( '1..1' )
-		if $Test::More::VERSION >= 1.005000005;
 	test_out( 'ok 1 - Test variable is a string (allow empty).' );
 	
 	ok_string(
@@ -54,8 +50,6 @@ use Test::Type;
 }
 
 {
-	test_out( '1..1' )
-		if $Test::More::VERSION >= 1.005000005;
 	test_out( 'ok 1 - Variable is a string (allow empty).' );
 	
 	ok_string(
@@ -70,8 +64,6 @@ use Test::Type;
 }
 
 {
-	test_out( '1..1' )
-		if $Test::More::VERSION >= 1.005000005;
 	test_out( 'not ok 1 - Variable is a string (non-empty).' );
 	
 	ok_string(
